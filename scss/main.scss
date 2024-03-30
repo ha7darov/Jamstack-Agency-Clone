@@ -7,3 +7,10 @@
 @import "varriables";
 @import "section/all-section";
 @import "Responsive/all-responsive";
+
+.firstSection{
+    width: 100%;
+    height: max-content;
+    background-image: url(../assets/s1-bg.jpg);
+    background-size: contain;
+}

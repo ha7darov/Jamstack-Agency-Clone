@@ -9,4 +9,12 @@ body {
   width: 100%;
   height: -moz-max-content;
   height: max-content;
+}
+
+.firstSection {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  background-image: url(../assets/s1-bg.jpg);
+  background-size: contain;
 }/*# sourceMappingURL=main.css.map */
