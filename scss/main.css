@@ -5,6 +5,16 @@ body {
   font-family: "Public Sans" sans-serif;
 }
 
+*::-moz-selection {
+  background: var(--bs-primary-bg-subtle);
+  color: #381866;
+}
+
+*::selection {
+  background: var(--bs-primary-bg-subtle);
+  color: #381866;
+}
+
 .container {
   width: 100%;
   height: -moz-max-content;
@@ -16,6 +26,13 @@ body {
   height: -moz-max-content;
   height: max-content;
   background-image: url(../assets/s1-bg.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
+}
+
+.bold-jh {
+  font-weight: bold;
+}
+
+.pad_tl {
+  padding-top: 100px;
+  padding-left: 100px;
 }/*# sourceMappingURL=main.css.map */
