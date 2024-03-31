@@ -38,4 +38,12 @@ body {
   padding-top: 150px;
   padding-left: 150px;
   padding-bottom: 100px;
+}
+
+.secondSection {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: #020617;
+  margin-top: -24px;
 }/*# sourceMappingURL=main.css.map */
