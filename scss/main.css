@@ -17,4 +17,5 @@ body {
   height: max-content;
   background-image: url(../assets/s1-bg.jpg);
   background-size: contain;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=main.css.map */
