@@ -26,6 +26,8 @@ body {
   height: -moz-max-content;
   height: max-content;
   background-image: url(../assets/s1-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .bold-jh {
@@ -35,4 +37,8 @@ body {
 .pad_tl {
   padding-top: 100px;
   padding-left: 100px;
+}
+
+.mleft-hand {
+  padding-left: 80px;
 }/*# sourceMappingURL=main.css.map */
