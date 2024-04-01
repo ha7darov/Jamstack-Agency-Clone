@@ -7,9 +7,7 @@
 .containerCard{
     display: grid;
     grid-template-columns: auto auto auto;
-    // justify-content: space-between;
     justify-content: center;
-    // justify-content: space-around;
     .col{
         margin-left: 50px;
         cursor: pointer;
