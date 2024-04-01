@@ -4,3 +4,31 @@
     background-color: #020617;
     margin-top: -24px;
 }
+.containerCard{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    // justify-content: space-between;
+    justify-content: center;
+    // justify-content: space-around;
+    .col{
+        margin-left: 50px;
+        cursor: pointer;
+        background-size: contain;
+        width: 339px;
+        height: 368px;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+    }
+    .col:hover{
+        margin-top: -20px;
+    }
+    .col-1-jh{
+        background-image: url(../../assets/secondSection/card-bg.jpg);        
+    }
+    .col-2-jh{
+        background-image: url(../../assets/secondSection/card2-bg.jpg);        
+    }
+    .col-3-jh{
+        background-image: url(../../assets/secondSection/card3-bg.jpg);        
+    }
+}
