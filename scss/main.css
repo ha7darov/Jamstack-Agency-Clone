@@ -41,6 +41,10 @@ body {
   padding-bottom: 200px;
 }
 
+.shadow-jh {
+  border: 1px solid white;
+}
+
 .secondSection {
   width: 100%;
   height: -moz-max-content;
@@ -50,20 +54,18 @@ body {
 }
 
 .containerCard {
-  display: grid;
   grid-template-columns: auto auto auto;
-  justify-content: center;
 }
-.containerCard .col {
+.containerCard .col-jh {
   margin-left: 50px;
   cursor: pointer;
   background-size: contain;
-  width: 339px;
-  height: 368px;
+  width: 369px;
+  height: 398px;
   border-radius: 20px;
   background-repeat: no-repeat;
 }
-.containerCard .col:hover {
+.containerCard .col-jh:hover {
   margin-top: -20px;
 }
 .containerCard .col-1-jh {
@@ -74,4 +76,8 @@ body {
 }
 .containerCard .col-3-jh {
   background-image: url(../../assets/secondSection/card3-bg.jpg);
+}
+
+.bg-classic {
+  background-color: rgba(30, 41, 59, var(--bs-bg-opacity, 1));
 }/*# sourceMappingURL=main.css.map */
