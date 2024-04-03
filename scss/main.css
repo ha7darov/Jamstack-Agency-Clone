@@ -45,17 +45,6 @@ body {
   border: 1px solid white;
 }
 
-.secondSection {
-  width: 100%;
-  height: -moz-max-content;
-  height: max-content;
-  background-color: #020617;
-  margin-top: -24px;
-}
-
-.containerCard {
-  grid-template-columns: auto auto auto;
-}
 .containerCard .col-jh {
   margin-left: 50px;
   cursor: pointer;
@@ -69,13 +58,13 @@ body {
   margin-top: -20px;
 }
 .containerCard .col-1-jh {
-  background-image: url(../../assets/secondSection/card-bg.jpg);
+  background-image: url(https://block.codescandy.com./assets/images/portfolio/portfolio-img-1.jpg);
 }
 .containerCard .col-2-jh {
-  background-image: url(../../assets/secondSection/card2-bg.jpg);
+  background-image: url(https://block.codescandy.com/assets/images/portfolio/portfolio-img-5.jpg);
 }
 .containerCard .col-3-jh {
-  background-image: url(../../assets/secondSection/card3-bg.jpg);
+  background-image: url(https://block.codescandy.com./assets/images/portfolio/portfolio-img-4.jpg);
 }
 
 .bg-classic {

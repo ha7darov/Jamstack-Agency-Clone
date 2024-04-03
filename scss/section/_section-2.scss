@@ -1,11 +1,4 @@
-.secondSection{
-    width: 100%;
-    height: max-content;
-    background-color: #020617;
-    margin-top: -24px;
-}
 .containerCard{
-    grid-template-columns: auto auto auto;
     .col-jh{
         margin-left: 50px;
         cursor: pointer;
@@ -19,12 +12,12 @@
         margin-top: -20px;
     }
     .col-1-jh{
-        background-image: url(../../assets/secondSection/card-bg.jpg);        
+        background-image: url(https://block.codescandy.com./assets/images/portfolio/portfolio-img-1.jpg);        
     }
     .col-2-jh{
-        background-image: url(../../assets/secondSection/card2-bg.jpg);        
+        background-image: url(https://block.codescandy.com/assets/images/portfolio/portfolio-img-5.jpg);        
     }
     .col-3-jh{
-        background-image: url(../../assets/secondSection/card3-bg.jpg);        
+        background-image: url(https://block.codescandy.com./assets/images/portfolio/portfolio-img-4.jpg);        
     }
 }
